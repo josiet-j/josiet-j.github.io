@@ -149,12 +149,12 @@ body {
   height: 100%;
   }
 
-@media (min-width: 550px) {
+@media (min-width: 481px) {
   body { background-image: url("../images/background3.jpg"); }
 }
 
-@media (max-width: 549px) {
-  body { background-image: url("../images/background5_mobile.jpg"); }
+@media (max-width: 480px) {
+  body { background-image: url("../images/480x550.jpg"); }
 }
 
 /* Typography
