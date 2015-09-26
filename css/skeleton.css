@@ -120,11 +120,6 @@
   margin-top: 10%;
 }
 
-
-.social {
-  margin-top: 20%;
-}
-
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* NOTE
@@ -147,15 +142,19 @@ body {
   /*background-position: calc(50% - 100px) 50%;*/
   background-repeat: no-repeat;
   height: 100%;
-  }
-
-@media (min-width: 481px) {
-  body { background-image: url("../images/background3.jpg"); }
 }
 
-@media (max-width: 480px) {
-  body { background-image: url("../images/480x550.jpg"); }
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+  body { background-image: url("../images/background4.jpg"); }
 }
+
+/* Smaller than phabet */
+@media (max-width: 550px) {
+  body { background-image: url("../images/background5.jpg"); }
+}
+
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -432,9 +431,10 @@ there.
 */
 
 
+
 /* Larger than mobile */
 @media (min-width: 400px) {
-  .button { width: 45%; }
+  .button { width: 100%; }
 }
 
 /* Larger than phablet (also point when grid becomes active) */
