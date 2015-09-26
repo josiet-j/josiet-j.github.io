@@ -42,10 +42,14 @@
   box-sizing: border-box; }
 
 /* For devices larger than 400px */
-@media (min-width: 400px) {
+@media (min-width: 435px) {
   .container {
     width: 85%;
     padding: 0; }
+  .column, 
+  .columns {
+    width: 75%;
+  }
 }
 
 /* For devices larger than 550px */
@@ -144,15 +148,14 @@ body {
   height: 100%;
 }
 
+/* Smaller than phabet */
+@media (max-width: 550px) {
+  body { background-image: url("../images/background5.jpg"); }
+}
 
 /* Larger than phablet */
 @media (min-width: 550px) {
   body { background-image: url("../images/background4.jpg"); }
-}
-
-/* Smaller than phabet */
-@media (max-width: 550px) {
-  body { background-image: url("../images/background5.jpg"); }
 }
 
 
@@ -433,7 +436,7 @@ there.
 
 
 /* Larger than mobile */
-@media (min-width: 400px) {
+@media (min-width: 350px) {
   .button { width: 100%; }
 }
 
