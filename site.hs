@@ -6,7 +6,7 @@ import           Hakyll
 
 --------------------------------------------------------------------------------
 main :: IO ()
-main = hakyll $ do
+main = hakyllWith config $ do
     match "images/*" $ do
         route   idRoute
         compile copyFileCompiler
@@ -14,6 +14,15 @@ main = hakyll $ do
     match "css/*" $ do
         route   idRoute
         compile compressCssCompiler
+
+    match "node_modules/tachyons/css/tachyons.min.css" $ do
+        route $ customRoute (const "css/tachyons.min.css")
+        compile copyFileCompiler
+
+    match "node_modules/jquery/dist/jquery.slim.min.js" $ do
+        route $ customRoute (const "js/jquery.slim.min.js")
+        compile copyFileCompiler
+
 
     match (fromList ["about.rst", "contact.markdown"]) $ do
         route   $ setExtension "html"
@@ -66,3 +75,7 @@ postCtx =
     dateField "date" "%B %e, %Y" `mappend`
     defaultContext
 
+config :: Configuration
+config = defaultConfiguration
+    { deployCommand = "git stash && git checkout develop && stack exec site clean && stack exec site build && git fetch --all && git checkout -b master --track origin/master && cp -a _site/. . && git add -A && git commit -m \"Publish.\" && git push origin master:master && git checkout develop && git branch -D master && git stash pop"
+    }
