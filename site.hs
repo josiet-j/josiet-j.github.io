@@ -23,8 +23,8 @@ main = hakyllWith config $ do
       route idRoute
       compile copyFileCompiler
 
-    match "node_modules/jquery/dist/jquery.slim.min.js" $ do
-        route $ customRoute (const "js/jquery.slim.min.js")
+    match "node_modules/jquery/dist/jquery.min.js" $ do
+        route $ customRoute (const "js/jquery.min.js")
         compile copyFileCompiler
 
 
