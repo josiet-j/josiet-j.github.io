@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/patrl/josiet-j.github.io#readme",
   "dependencies": {
+    "jquery": "^3.2.1",
     "tachyons": "^4.8.1"
   }
 }
