@@ -1,2 +1,8 @@
-font-family: 'Libre Franklin', sans-serif;
-font-family: 'Libre Baskerville', serif;
+.lbaskerville{
+    font-family: 'Libre Baskerville', serif;
+}
+
+.lfranklin{
+    font-family: 'Libre Franklin', sans-serif;
+}
+
