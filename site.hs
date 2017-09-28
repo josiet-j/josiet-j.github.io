@@ -8,25 +8,20 @@ import           Hakyll
 main :: IO ()
 main = hakyllWith config $ do
     match "images/*" $ do
-        route   idRoute
-        compile copyFileCompiler
+      route   idRoute
+      compile copyFileCompiler
 
-    -- match "css/*" $ do
-    --     route   idRoute
-    --     compile compressCssCompiler
+    match "css/*" $ do
+        route   idRoute
+        compile compressCssCompiler
 
     match "node_modules/tachyons/css/tachyons.min.css" $ do
-        route $ customRoute (const "css/tachyons.min.css")
-        compile copyFileCompiler
+      route $ customRoute (const "css/tachyons.min.css")
+      compile copyFileCompiler
 
     match "js/*" $ do
       route idRoute
       compile copyFileCompiler
-
-    match "node_modules/jquery/dist/jquery.min.js" $ do
-        route $ customRoute (const "js/jquery.min.js")
-        compile copyFileCompiler
-
 
     -- match (fromList ["about.rst", "contact.markdown"]) $ do
     --     route   $ setExtension "html"
