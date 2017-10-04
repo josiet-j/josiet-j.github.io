@@ -10,6 +10,8 @@
     font-family: 'Playfair Display SC', serif;
 }
 
+details summary { cursor: pointer; }
+
 summary::-webkit-details-marker {
     display: none;
 }
@@ -17,6 +19,7 @@ summary:after {
     content: "+ ";
     font-weight: bold;
     float: left;
+    cursor: pointer;
     margin: 0 10px 0 0;
 
 }
