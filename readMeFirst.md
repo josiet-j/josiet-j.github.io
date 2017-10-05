@@ -1,5 +1,0 @@
-- [Meet the first humans to sense where north is](https://www.theguardian.com/technology/2017/jan/06/first-humans-sense-where-north-is-cyborg-gadget), Feature, The Guardian
-- [LDN-TXL-CPH](http://somesuchstories.co/story/ldn-txl-cph), Essay, Somesuch Stories
-- [Don't Sext Me In The Present Tense](https://medium.com/the-awl/dont-sext-me-in-the-present-tense-447be1895c25), Essay, The Awl
-- [Holy Shit!](https://frieze.com/article/holy-shit), Interview with Matt Fishbeck, Frieze
-- [Free Orgasms, Neon Lights, and Pepto-Bismol at the Korean Pavilion](https://creators.vice.com/en_us/article/vbgydy/free-orgasms-neon-pepto-bismol-korean-pavilion), Exhibition review, Creators
