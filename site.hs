@@ -35,6 +35,10 @@ main = hakyllWith config $ do
       route idRoute
       compile copyFileCompiler
 
+    match "CNAME" $ do
+      route idRoute
+      compile copyFileCompiler
+
     match "2017.md" $ do
       route $ setExtension "html"
       compile $ pandocCompiler
