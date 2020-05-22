@@ -1,0 +1,34 @@
+current directory: /home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/eventmachine-1.2.7/ext/fastfilereader
+/nix/store/a3wafb77xrn5wcz21sxg8l40kdlm2wny-ruby-2.6.5/bin/ruby -I /nix/store/a3wafb77xrn5wcz21sxg8l40kdlm2wny-ruby-2.6.5/lib/ruby/2.6.0 -r ./siteconf20200407-16576-13gxoh5.rb extconf.rb
+creating Makefile
+
+current directory: /home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" clean
+make[1]: Entering directory '/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/eventmachine-1.2.7/ext/fastfilereader'
+make[1]: Leaving directory '/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/eventmachine-1.2.7/ext/fastfilereader'
+
+current directory: /home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR="
+make[1]: Entering directory '/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/eventmachine-1.2.7/ext/fastfilereader'
+compiling mapper.cpp
+cc1plus: warning: command line option ‘-Wdeclaration-after-statement’ is valid for C/ObjC but not for C++
+cc1plus: warning: command line option ‘-Wimplicit-function-declaration’ is valid for C/ObjC but not for C++
+cc1plus: warning: command line option ‘-Wimplicit-int’ is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1plus: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1plus: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+compiling rubymain.cpp
+cc1plus: warning: command line option ‘-Wdeclaration-after-statement’ is valid for C/ObjC but not for C++
+cc1plus: warning: command line option ‘-Wimplicit-function-declaration’ is valid for C/ObjC but not for C++
+cc1plus: warning: command line option ‘-Wimplicit-int’ is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1plus: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1plus: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+linking shared-object fastfilereaderext.so
+make[1]: Leaving directory '/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/eventmachine-1.2.7/ext/fastfilereader'
+
+current directory: /home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" install
+make[1]: Entering directory '/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/eventmachine-1.2.7/ext/fastfilereader'
+/nix/store/hzvl3dvv8651iqlb5g6gq5hzjzmhjn7m-coreutils-8.31/bin/install -c -m 0755 fastfilereaderext.so ./.gem.20200407-16576-10fofgq
+make[1]: Leaving directory '/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/eventmachine-1.2.7/ext/fastfilereader'

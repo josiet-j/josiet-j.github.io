@@ -1,0 +1,189 @@
+current directory: /home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c
+/nix/store/a3wafb77xrn5wcz21sxg8l40kdlm2wny-ruby-2.6.5/bin/ruby -I /nix/store/a3wafb77xrn5wcz21sxg8l40kdlm2wny-ruby-2.6.5/lib/ruby/2.6.0 -r ./siteconf20200407-16576-psnnjs.rb extconf.rb
+checking for ffi.h... no
+checking for ffi.h in /usr/local/include,/usr/include/ffi... no
+checking for shlwapi.h... no
+checking for rb_thread_call_without_gvl()... yes
+checking for ruby_native_thread_p()... yes
+checking for ruby_thread_has_gvl_p()... yes
+creating extconf.h
+creating Makefile
+
+current directory: /home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c
+make "DESTDIR=" clean
+make[1]: Entering directory '/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c'
+make[1]: Leaving directory '/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c'
+
+current directory: /home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c
+make "DESTDIR="
+make[1]: Entering directory '/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c'
+Configuring libffi
+/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/configure: line 7566: /usr/bin/file: No such file or directory
+make -C "/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi-x86_64-linux"
+make[2]: Entering directory '/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi-x86_64-linux'
+make  all-recursive
+make[3]: Entering directory '/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi-x86_64-linux'
+Making all in include
+make[4]: Entering directory '/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi-x86_64-linux/include'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi-x86_64-linux/include'
+Making all in testsuite
+make[4]: Entering directory '/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi-x86_64-linux/testsuite'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi-x86_64-linux/testsuite'
+Making all in man
+make[4]: Entering directory '/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi-x86_64-linux/man'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi-x86_64-linux/man'
+make[4]: Entering directory '/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi-x86_64-linux'
+/nix/store/z4ajipns0l1s8b2lrgpy6nng4cys7h99-bash-4.4-p23/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi  -I. -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/include -Iinclude -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src   -Wall -fexceptions -c -o src/prep_cif.lo /home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src/prep_cif.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi -I. -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/include -Iinclude -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src -Wall -fexceptions -c /home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src/prep_cif.c  -fPIC -DPIC -o src/.libs/prep_cif.o
+/nix/store/z4ajipns0l1s8b2lrgpy6nng4cys7h99-bash-4.4-p23/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi  -I. -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/include -Iinclude -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src   -Wall -fexceptions -c -o src/types.lo /home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src/types.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi -I. -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/include -Iinclude -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src -Wall -fexceptions -c /home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src/types.c  -fPIC -DPIC -o src/.libs/types.o
+/nix/store/z4ajipns0l1s8b2lrgpy6nng4cys7h99-bash-4.4-p23/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi  -I. -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/include -Iinclude -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src   -Wall -fexceptions -c -o src/raw_api.lo /home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src/raw_api.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi -I. -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/include -Iinclude -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src -Wall -fexceptions -c /home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src/raw_api.c  -fPIC -DPIC -o src/.libs/raw_api.o
+/nix/store/z4ajipns0l1s8b2lrgpy6nng4cys7h99-bash-4.4-p23/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi  -I. -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/include -Iinclude -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src   -Wall -fexceptions -c -o src/java_raw_api.lo /home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src/java_raw_api.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi -I. -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/include -Iinclude -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src -Wall -fexceptions -c /home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src/java_raw_api.c  -fPIC -DPIC -o src/.libs/java_raw_api.o
+/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src/java_raw_api.c: In function ‘ffi_java_raw_call’:
+/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src/java_raw_api.c:317:3: warning: ‘ffi_java_raw_to_ptrarray’ is deprecated [-Wdeprecated-declarations]
+  317 |   ffi_java_raw_to_ptrarray (cif, raw, avalue);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src/java_raw_api.c:76:1: note: declared here
+   76 | ffi_java_raw_to_ptrarray (ffi_cif *cif, ffi_java_raw *raw, void **args)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src/java_raw_api.c: In function ‘ffi_java_translate_args’:
+/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src/java_raw_api.c:328:3: warning: ‘ffi_java_raw_size’ is deprecated [-Wdeprecated-declarations]
+  328 |   ffi_java_raw *raw = (ffi_java_raw*)alloca (ffi_java_raw_size (cif));
+      |   ^~~~~~~~~~~~
+/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src/java_raw_api.c:45:1: note: declared here
+   45 | ffi_java_raw_size (ffi_cif *cif)
+      | ^~~~~~~~~~~~~~~~~
+/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src/java_raw_api.c:331:3: warning: ‘ffi_java_ptrarray_to_raw’ is deprecated [-Wdeprecated-declarations]
+  331 |   ffi_java_ptrarray_to_raw (cif, avalue, raw);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src/java_raw_api.c:157:1: note: declared here
+  157 | ffi_java_ptrarray_to_raw (ffi_cif *cif, void **args, ffi_java_raw *raw)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src/java_raw_api.c: In function ‘ffi_prep_java_raw_closure’:
+/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src/java_raw_api.c:369:3: warning: ‘ffi_prep_java_raw_closure_loc’ is deprecated [-Wdeprecated-declarations]
+  369 |   return ffi_prep_java_raw_closure_loc (cl, cif, fun, user_data, cl);
+      |   ^~~~~~
+/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src/java_raw_api.c:337:1: note: declared here
+  337 | ffi_prep_java_raw_closure_loc (ffi_java_raw_closure* cl,
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/nix/store/z4ajipns0l1s8b2lrgpy6nng4cys7h99-bash-4.4-p23/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi  -I. -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/include -Iinclude -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src   -Wall -fexceptions -c -o src/closures.lo /home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src/closures.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi -I. -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/include -Iinclude -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src -Wall -fexceptions -c /home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src/closures.c  -fPIC -DPIC -o src/.libs/closures.o
+/nix/store/z4ajipns0l1s8b2lrgpy6nng4cys7h99-bash-4.4-p23/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi  -I. -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/include -Iinclude -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src   -Wall -fexceptions -c -o src/x86/ffi64.lo /home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src/x86/ffi64.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi -I. -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/include -Iinclude -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src -Wall -fexceptions -c /home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src/x86/ffi64.c  -fPIC -DPIC -o src/x86/.libs/ffi64.o
+/nix/store/z4ajipns0l1s8b2lrgpy6nng4cys7h99-bash-4.4-p23/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi  -I. -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/include -Iinclude -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src  -I. -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/include -Iinclude -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src  -c -o src/x86/unix64.lo /home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src/x86/unix64.S
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi -I. -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/include -Iinclude -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src -I. -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/include -Iinclude -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src -c /home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src/x86/unix64.S  -fPIC -DPIC -o src/x86/.libs/unix64.o
+/nix/store/z4ajipns0l1s8b2lrgpy6nng4cys7h99-bash-4.4-p23/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi  -I. -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/include -Iinclude -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src   -Wall -fexceptions -c -o src/x86/ffiw64.lo /home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src/x86/ffiw64.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi -I. -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/include -Iinclude -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src -Wall -fexceptions -c /home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src/x86/ffiw64.c  -fPIC -DPIC -o src/x86/.libs/ffiw64.o
+/nix/store/z4ajipns0l1s8b2lrgpy6nng4cys7h99-bash-4.4-p23/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi  -I. -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/include -Iinclude -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src  -I. -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/include -Iinclude -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src  -c -o src/x86/win64.lo /home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src/x86/win64.S
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi -I. -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/include -Iinclude -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src -I. -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/include -Iinclude -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src -c /home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src/x86/win64.S  -fPIC -DPIC -o src/x86/.libs/win64.o
+gcc -DHAVE_CONFIG_H -I. -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi  -I. -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/include -Iinclude -I/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/src   -Wall -fexceptions -DX86_64 -E -x assembler-with-cpp -o libffi.map /home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/libffi.map.in
+/nix/store/z4ajipns0l1s8b2lrgpy6nng4cys7h99-bash-4.4-p23/bin/bash ./libtool  --tag=CC   --mode=link gcc  -Wall -fexceptions   -o libffi_convenience.la  src/prep_cif.lo src/types.lo src/raw_api.lo src/java_raw_api.lo src/closures.lo   src/x86/ffi64.lo src/x86/unix64.lo src/x86/ffiw64.lo src/x86/win64.lo 
+libtool: link: rm -fr  .libs/libffi_convenience.a(D)
+libtool: link: ar cru .libs/libffi_convenience.a src/.libs/prep_cif.o src/.libs/types.o src/.libs/raw_api.o src/.libs/java_raw_api.o src/.libs/closures.o src/x86/.libs/ffi64.o src/x86/.libs/unix64.o src/x86/.libs/ffiw64.o src/x86/.libs/win64.o 
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libffi_convenience.a
+libtool: link: ( cd ".libs" && rm -f "libffi_convenience.la" && ln -s "../libffi_convenience.la" "libffi_convenience.la" )
+/nix/store/z4ajipns0l1s8b2lrgpy6nng4cys7h99-bash-4.4-p23/bin/bash ./libtool  --tag=CC   --mode=link gcc  -Wall -fexceptions -no-undefined -version-info `grep -v '^#' /home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi/libtool-version` -Wl,--version-script,libffi.map    -o libffi.la -rpath /usr/local/lib/../lib64 src/prep_cif.lo src/types.lo src/raw_api.lo src/java_raw_api.lo src/closures.lo  src/x86/ffi64.lo src/x86/unix64.lo src/x86/ffiw64.lo src/x86/win64.lo 
+libtool: link: gcc -shared  -fPIC -DPIC  src/.libs/prep_cif.o src/.libs/types.o src/.libs/raw_api.o src/.libs/java_raw_api.o src/.libs/closures.o src/x86/.libs/ffi64.o src/x86/.libs/unix64.o src/x86/.libs/ffiw64.o src/x86/.libs/win64.o    -Wl,--version-script -Wl,libffi.map   -Wl,-soname -Wl,libffi.so.7 -o .libs/libffi.so.7.1.0
+libtool: link: (cd ".libs" && rm -f "libffi.so.7" && ln -s "libffi.so.7.1.0" "libffi.so.7")
+libtool: link: (cd ".libs" && rm -f "libffi.so" && ln -s "libffi.so.7.1.0" "libffi.so")
+libtool: link: ( cd ".libs" && rm -f "libffi.la" && ln -s "../libffi.la" "libffi.la" )
+make[4]: Leaving directory '/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi-x86_64-linux'
+make[3]: Leaving directory '/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi-x86_64-linux'
+make[2]: Leaving directory '/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi-x86_64-linux'
+compiling AbstractMemory.c
+compiling ArrayType.c
+compiling Buffer.c
+compiling Call.c
+compiling ClosurePool.c
+compiling DynamicLibrary.c
+compiling Function.c
+Function.c: In function ‘callback_prep’:
+Function.c:867:5: warning: ‘ffi_prep_closure’ is deprecated: use ffi_prep_closure_loc instead [-Wdeprecated-declarations]
+  867 |     ffiStatus = ffi_prep_closure(code, &fnInfo->ffi_cif, callback_invoke, closure);
+      |     ^~~~~~~~~
+In file included from Function.c:52:
+/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi-x86_64-linux/include/ffi.h:334:1: note: declared here
+  334 | ffi_prep_closure (ffi_closure*,
+      | ^~~~~~~~~~~~~~~~
+compiling FunctionInfo.c
+compiling LastError.c
+compiling LongDouble.c
+compiling MappedType.c
+compiling MemoryPointer.c
+compiling MethodHandle.c
+compiling Platform.c
+compiling Pointer.c
+compiling Struct.c
+compiling StructByValue.c
+compiling StructLayout.c
+compiling Thread.c
+compiling Type.c
+compiling Types.c
+compiling Variadic.c
+compiling ffi.c
+linking shared-object ffi_c.so
+make[1]: Leaving directory '/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c'
+
+current directory: /home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c
+make "DESTDIR=" install
+make[1]: Entering directory '/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c'
+make -C "/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi-x86_64-linux"
+make[2]: Entering directory '/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi-x86_64-linux'
+make  all-recursive
+make[3]: Entering directory '/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi-x86_64-linux'
+Making all in include
+make[4]: Entering directory '/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi-x86_64-linux/include'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi-x86_64-linux/include'
+Making all in testsuite
+make[4]: Entering directory '/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi-x86_64-linux/testsuite'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi-x86_64-linux/testsuite'
+Making all in man
+make[4]: Entering directory '/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi-x86_64-linux/man'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi-x86_64-linux/man'
+make[4]: Entering directory '/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi-x86_64-linux'
+make[4]: Leaving directory '/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi-x86_64-linux'
+make[3]: Leaving directory '/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi-x86_64-linux'
+make[2]: Leaving directory '/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi-x86_64-linux'
+compiling AbstractMemory.c
+compiling ArrayType.c
+compiling Buffer.c
+compiling Call.c
+compiling ClosurePool.c
+compiling DynamicLibrary.c
+compiling Function.c
+Function.c: In function ‘callback_prep’:
+Function.c:867:5: warning: ‘ffi_prep_closure’ is deprecated: use ffi_prep_closure_loc instead [-Wdeprecated-declarations]
+  867 |     ffiStatus = ffi_prep_closure(code, &fnInfo->ffi_cif, callback_invoke, closure);
+      |     ^~~~~~~~~
+In file included from Function.c:52:
+/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c/libffi-x86_64-linux/include/ffi.h:334:1: note: declared here
+  334 | ffi_prep_closure (ffi_closure*,
+      | ^~~~~~~~~~~~~~~~
+compiling FunctionInfo.c
+compiling LastError.c
+compiling LongDouble.c
+compiling MappedType.c
+compiling MemoryPointer.c
+compiling MethodHandle.c
+compiling Platform.c
+compiling Pointer.c
+compiling Struct.c
+compiling StructByValue.c
+compiling StructLayout.c
+compiling Thread.c
+compiling Type.c
+compiling Types.c
+compiling Variadic.c
+compiling ffi.c
+linking shared-object ffi_c.so
+/nix/store/hzvl3dvv8651iqlb5g6gq5hzjzmhjn7m-coreutils-8.31/bin/install -c -m 0755 ffi_c.so ./.gem.20200407-16576-jh6gys
+make[1]: Leaving directory '/home/patrl/repos/josiet-j.github.io/.direnv/ruby/gems/ffi-1.12.2/ext/ffi_c'
