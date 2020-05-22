@@ -3,3 +3,4 @@ _site/
 .stack-work/
 node_modules/
 dist-newstyle/
+.direnv/
